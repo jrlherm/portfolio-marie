@@ -16,8 +16,15 @@
 }
 
 .l{
-  grid-column-end: span 2;
-  grid-row-end:span 2;
+  grid-column-end: span 1;
+  grid-row-end:span 1;
+}
+
+@media (min-width:872px){
+  .l{
+    grid-column-end: span 2;
+    grid-row-end:span 2;
+  }
 }
 
 .card {

@@ -1,8 +1,8 @@
 .cards {
   display:grid;
-  grid-template-columns: repeat(3, 400px); /* 3 colonnes de 400px */
-  grid-auto-rows: 288px; /* Rows automatiques de 288px */
-  grid-gap: 24px; /* Goutières de 24px */
+  grid-template-columns: repeat(auto-fill, 400px);
+  grid-auto-rows: 288px;
+  grid-gap: 24px;
   grid-auto-flow: row dense;
   padding:0 24px;
   grid-template-columns: repeat(auto-fill, 550px);
