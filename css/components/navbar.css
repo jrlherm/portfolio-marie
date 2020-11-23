@@ -1,0 +1,22 @@
+nav {
+  border-bottom: 1px solid #00000014;
+}
+nav .container {
+  height: 60px;
+}
+
+.nav_logo a {
+  font-family: 'Playfair Display';
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+.nav_links a {
+  margin: 0 12px;
+  opacity: 0.7;
+}
+.nav_links a:hover {
+  opacity: 1;
+}
