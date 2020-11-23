@@ -19,24 +19,3 @@
   transition-timing-function: ease-in-out;
   color: #000;
 }
-
-.projects_thumbnails {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 16px;
-}
-
-.project {
-  height: 500px;
-  background-color: #0000000f;
-  display: flex;
-  justify-content: space-around;
-}
-.project a {
-  align-self: center;
-  opacity: 0;
-  transition-duration: 100ms;
-}
-.project:hover a {
-  opacity: 1;
-}
